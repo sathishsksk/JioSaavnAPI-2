@@ -5,7 +5,7 @@ from typing import Dict
 import requests
 
 if not os.path.exists(".tmp/files"):
-    os.mkdir(".tmp/files")
+    os.path.mkdir(".tmp/files")
 
 
 class TaskManager(object):
